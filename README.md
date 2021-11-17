@@ -3,6 +3,8 @@ A high resolution version of [VGGFace2](https://github.com/ox-vgg/vgg_face2) for
 
 We provide a download link for users to download the data, and also provide guidance on how to generate the VGGFace2 dataset from scratch.
 
+If you find this project useful, please star it. It is the greatest appreciation of our work.
+
 <img src="./docs/img/vggface2_hq_compare.png"/>
 
 # Get the VGGFace2-HQ dataset from cloud!
