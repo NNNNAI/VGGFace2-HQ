@@ -1,7 +1,7 @@
 # VGGFace2-HQ
 A high resolution version of [VGGFace2](https://github.com/ox-vgg/vgg_face2) for academic face editing purpose.This project uses [GFPGAN](https://github.com/TencentARC/GFPGAN) for image restoration and [insightface](https://github.com/deepinsight/insightface) for data preprocessing (crop and align).
 
-We provide a download link for users to download the data, and provide guidance on how to generate the VGGFace2 dataset from scratch.
+We provide a download link for users to download the data, and also provide guidance on how to generate the VGGFace2 dataset from scratch.
 
 <img src="./docs/img/vggface2_hq_compare.png"/>
 
