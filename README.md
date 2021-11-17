@@ -1,6 +1,8 @@
 # VGGFace2-HQ
 A high resolution version of [VGGFace2](https://github.com/ox-vgg/vgg_face2) for academic face editing purpose.This project uses [GFPGAN](https://github.com/TencentARC/GFPGAN) for image restoration and [insightface](https://github.com/deepinsight/insightface) for data preprocessing (crop and align).
 
+[![logo](./VGGFace2-HQ.png)](https://github.com/NNNNAI/VGGFace2-HQ)
+
 We provide a download link for users to download the data, and also provide guidance on how to generate the VGGFace2 dataset from scratch.
 
 If you find this project useful, please star it. It is the greatest appreciation of our work.
@@ -13,7 +15,7 @@ We have uploaded the dataset of VGGFace2 HQ to the cloud, and you can download i
 
 [[Baidu Drive]](https://pan.baidu.com/s/1LwPFhgbdBj5AeoPTXgoqDw) Password: ```jd2v```
 
-***Google Drive*** coming sonn, it will take a while to upload all the files to Google Drive.
+***Google Drive*** is coming, it will take a while to upload all the files to Google Drive.
 
 
 # Generate the HQ dataset by yourself. (If you want to do so)
