@@ -1,5 +1,5 @@
 # VGGFace-HQ
-A high resolution face dataset for face editing purpose.This project uses [GFPGAN](https://github.com/TencentARC/GFPGAN) as an image restoration model and [insightface](https://github.com/deepinsight/insightface) for data preprocessing (crop and align).
+A high resolution face dataset for face editing purpose.This project uses [GFPGAN](https://github.com/TencentARC/GFPGAN) for image restoration and [insightface](https://github.com/deepinsight/insightface) for data preprocessing (crop and align).
 
 # Preparation
 ## Installation
