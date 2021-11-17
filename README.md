@@ -1,8 +1,20 @@
 # VGGFace2-HQ
-A high resolution version of [VGGFace2](https://github.com/ox-vgg/vgg_face2) for face editing purpose.This project uses [GFPGAN](https://github.com/TencentARC/GFPGAN) for image restoration and [insightface](https://github.com/deepinsight/insightface) for data preprocessing (crop and align).
+A high resolution version of [VGGFace2](https://github.com/ox-vgg/vgg_face2) for academic face editing purpose.This project uses [GFPGAN](https://github.com/TencentARC/GFPGAN) for image restoration and [insightface](https://github.com/deepinsight/insightface) for data preprocessing (crop and align).
 
-# Preparation
-## Installation
+We provide a download link for users to download the data, and provide guidance on how to generate the VGGFace2 dataset from scratch.
+
+# Get the VGGFace2-HQ dataset from cloud!
+
+We have uploaded the dataset of VGGFace2 HQ to the cloud, and you can download it from the cloud.
+
+[[Baidu Drive]](https://pan.baidu.com/s/1LwPFhgbdBj5AeoPTXgoqDw) Password: ```jd2v```
+
+***Google Drive*** coming sonn, it will take a while to upload all the files to Google Drive.
+
+
+# Generate the HQ dataset by yourself. (If you want to do so)
+## Preparation
+### Installation
 **We highly recommand that you use Anaconda for Installation**
 ```
 conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=10.2 -c pytorch
@@ -17,14 +29,14 @@ python setup.py develop
 - The pytorch and cuda versions above are most recommanded. They may vary.
 - Using insightface with different versions is not recommanded. Please use this specific version.
 - These settings are tested valid on both Windows and Ununtu.
-## Pretrained model
+### Pretrained model
 - We use the face detection and alignment methods from **[insightface](https://github.com/deepinsight/insightface)** for image preprocessing. Please download the relative files and unzip them to **./insightface_func/models** from [this link](https://onedrive.live.com/?authkey=%21ADJ0aAOSsc90neY&cid=4A83B6B633B029CC&id=4A83B6B633B029CC%215837&parId=4A83B6B633B029CC%215834&action=locate).
 - Download [GFPGANCleanv1-NoCE-C2.pth](https://github.com/TencentARC/GFPGAN/releases/download/v0.2.0/GFPGANCleanv1-NoCE-C2.pth) from GFPGAN offical repo. Place "GFPGANCleanv1-NoCE-C2.pth" in **./experiments/pretrained_models**.
 
-## Data preparation
+### Data preparation
 - Download VGGFace2 Dataset from [VGGFace2 Dataset for Face Recognition](https://github.com/ox-vgg/vgg_face2)
 
-# Inference
+## Inference
 
 - Frist, perform data preprocessing on all photos in VGGFACE2, that is, detect faces and align them to the same alignment format as FFHQdataset.
 ```
