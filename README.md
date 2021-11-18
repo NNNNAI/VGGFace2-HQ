@@ -13,7 +13,7 @@ If you find this project useful, please star it. It is the greatest appreciation
 
 We have uploaded the dataset of VGGFace2 HQ to the cloud, and you can download it from the cloud.
 
-[[Baidu Drive]](https://pan.baidu.com/s/1LwPFhgbdBj5AeoPTXgoqDw) Password: ```jd2v```
+[[Baidu Drive]](https://pan.baidu.com/s/1LwPFhgbdBj5AeoPTXgoqDw) Password: ```sjtu```
 
 ***Google Drive*** is coming, it will take a while to upload all the files to Google Drive.
 
