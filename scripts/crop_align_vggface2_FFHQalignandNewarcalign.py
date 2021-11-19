@@ -3,7 +3,7 @@ Author: Naiyuan liu
 Github: https://github.com/NNNNAI
 Date: 2021-11-15 19:42:42
 LastEditors: Naiyuan liu
-LastEditTime: 2021-11-15 20:09:39
+LastEditTime: 2021-11-19 16:17:54
 Description: 
 '''
 from __future__ import absolute_import
@@ -29,7 +29,7 @@ def align_image_dir(dir_name_tmp):
 
 
     for file in image_filenames:
-        image_file = file.split('/')[-1]
+        image_file = os.path.basename(file)
 
         image_file_name_newarcalign = os.path.join(save_dir_newarcalign, image_file)
         image_file_name_ffhqalign  = os.path.join(save_dir_ffhqalign, image_file)
@@ -53,7 +53,6 @@ if __name__ == "__main__":
     parser.add_argument('--input_dir',type=str,default = '/home/gdp/harddisk/Data1/VGGface2/train')
     parser.add_argument('--output_dir_ffhqalign',type=str,default = '/home/gdp/harddisk/Data1/VGGface2_ffhq_align')
     parser.add_argument('--output_dir_newarcalign',type=str,default = '/home/gdp/harddisk/Data1/VGGface2_newarc_align')
-    parser.add_argument('--additional_pattern',type=str,default = '*/*')
     parser.add_argument('--crop_size',type=int,default = 256)
     parser.add_argument('--mode',type=str,default = 'Both')
 
@@ -63,8 +62,6 @@ if __name__ == "__main__":
     output_dir_ffhqalign = args.output_dir_ffhqalign
     crop_size = args.crop_size
     mode      = args.mode
-
-    additional_pattern = args.additional_pattern
 
     app = Face_detect_crop(name='antelope', root='./insightface_func/models')
 

@@ -3,7 +3,7 @@ Author: Naiyuan liu
 Github: https://github.com/NNNNAI
 Date: 2021-11-16 15:34:14
 LastEditors: Naiyuan liu
-LastEditTime: 2021-11-16 19:44:48
+LastEditTime: 2021-11-19 16:14:01
 Description:
 '''
 from __future__ import absolute_import
@@ -26,7 +26,7 @@ def align_image_dir(dir_name_tmp):
 
 
     for file in image_filenames:
-        image_file = file.split('/')[-1]
+        image_file = os.path.basename(file)
 
         image_file_name_ffhqalign  = os.path.join(save_dir_ffhqalign, image_file)
         if os.path.exists(image_file_name_ffhqalign):
@@ -47,7 +47,6 @@ if __name__ == "__main__":
 
     parser.add_argument('--input_dir',type=str,default = '/Data/VGGface2/train')
     parser.add_argument('--output_dir_ffhqalign',type=str,default = '/Data/VGGface2_FFHQalign')
-    parser.add_argument('--additional_pattern',type=str,default = '*/*')
     parser.add_argument('--crop_size',type=int,default = 256)
     parser.add_argument('--mode',type=str,default = 'ffhq',choices=['ffhq','newarc','both'])
 
@@ -56,8 +55,6 @@ if __name__ == "__main__":
     output_dir_ffhqalign = args.output_dir_ffhqalign
     crop_size = args.crop_size
     mode      = args.mode
-
-    additional_pattern = args.additional_pattern
 
     app = Face_detect_crop(name='antelope', root='./insightface_func/models')
 
