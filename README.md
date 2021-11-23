@@ -20,7 +20,7 @@ We have uploaded the dataset of VGGFace2 HQ to the cloud, and you can download i
 
 [[Google Drive]](https://drive.google.com/drive/folders/1ZHy7jrd6cGb2lUa4qYugXe41G_Ef9Ibw?usp=sharing)
 
-***We are especially grateful to Dr. [Kairui Feng](https://scholar.google.com.hk/citations?user=4N5hE8YAAAAJ&hl=zh-CN) from Princeton University.***
+***We are especially grateful to [Kairui Feng](https://scholar.google.com.hk/citations?user=4N5hE8YAAAAJ&hl=zh-CN) PhD student from Princeton University.***
 
 ### Baidu Drive
 
