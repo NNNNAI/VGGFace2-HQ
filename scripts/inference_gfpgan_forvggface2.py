@@ -3,7 +3,7 @@ Author: Naiyuan liu
 Github: https://github.com/NNNNAI
 Date: 2021-11-16 19:30:52
 LastEditors: Naiyuan liu
-LastEditTime: 2021-11-17 11:51:27
+LastEditTime: 2021-11-20 17:57:55
 Description:
 '''
 import os
@@ -15,7 +15,7 @@ from vggface_dataset import getLoader
 from basicsr.utils import imwrite, tensor2img
 from gfpgan.archs.gfpganv1_arch import GFPGANv1
 from gfpgan.archs.gfpganv1_clean_arch import GFPGANv1Clean
-
+import platform
 
 def main_worker(args):
     arch = args.arch
@@ -69,7 +69,7 @@ def main_worker(args):
             for tmp_index in range(len(output_batch)):
                 tmp_filename = filenames[tmp_index]
 
-                split_leave = tmp_filename.split(args.input_path)[-1].split('/')
+                split_leave = tmp_filename.split(args.input_path)[-1].split(split_name)
                 restored_face = output_batch[tmp_index]
                 restored_face = tensor2img(restored_face, rgb2bgr=True, min_max=(-1, 1))
                 restored_face = restored_face.astype('uint8')
@@ -94,5 +94,10 @@ if __name__ == '__main__':
     parser.add_argument('--channel', type=int, default=2)
 
     args = parser.parse_args()
+ 
+    if platform.system().lower() == 'windows':
+        split_name = '\\'
+    elif platform.system().lower() == 'linux':
+        split_name = '/'
     os.makedirs(args.save_dir, exist_ok=True)
     main_worker(args)
