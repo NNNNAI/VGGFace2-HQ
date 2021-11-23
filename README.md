@@ -1,4 +1,7 @@
 # VGGFace2-HQ
+
+## The first open source high resolution dataset for face swapping!!!
+
 A high resolution version of [VGGFace2](https://github.com/ox-vgg/vgg_face2) for academic face editing purpose.This project uses [GFPGAN](https://github.com/TencentARC/GFPGAN) for image restoration and [insightface](https://github.com/deepinsight/insightface) for data preprocessing (crop and align).
 
 [![logo](./VGGFace2-HQ.png)](https://github.com/NNNNAI/VGGFace2-HQ)
@@ -13,7 +16,7 @@ If you find this project useful, please star it. It is the greatest appreciation
 
 We have uploaded the dataset of VGGFace2 HQ to the cloud, and you can download it from the cloud.
 
-[[Baidu Drive]](https://pan.baidu.com/s/1LwPFhgbdBj5AeoPTXgoqDw) Password: ```jd2v```
+[[Baidu Drive]](https://pan.baidu.com/s/1LwPFhgbdBj5AeoPTXgoqDw) Password: ```sjtu```
 
 ***Google Drive*** is coming, it will take a while to upload all the files to Google Drive.
 
