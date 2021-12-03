@@ -61,6 +61,46 @@ python scripts/crop_align_vggface2_FFHQalign.py --input_dir $DATAPATH$/VGGface2/
 ```
 python scripts/inference_gfpgan_forvggface2.py --input_path $ALIGN_OUTDIR$  --batchSize 8 --save_dir $HQ_OUTDIR$
 ```
+
+## Related Projects
+
+***Please visit our popular face swapping project***
+
+[![logo](./docs/img/simswap.png)](https://github.com/neuralchen/SimSwap)
+
+***Please visit our another ACMMM2020 high-quality style transfer project***
+
+[![logo](./docs/img/logo.png)](https://github.com/neuralchen/ASMAGAN)
+
+[![title](/docs/img/title.png)](https://github.com/neuralchen/ASMAGAN)
+
+***Please visit our AAAI2021 sketch based rendering project***
+
+[![logo](./docs/img/girl2.gif)](https://github.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale)
+[![title](/docs/img/girl2-RGB.png)](https://github.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale)
+
+Learn about our other projects 
+
+[[VGGFace2-HQ]](https://github.com/NNNNAI/VGGFace2-HQ);
+
+[[RainNet]](https://neuralchen.github.io/RainNet);
+
+[[Sketch Generation]](https://github.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale);
+
+[[CooGAN]](https://github.com/neuralchen/CooGAN);
+
+[[Knowledge Style Transfer]](https://github.com/AceSix/Knowledge_Transfer);
+
+[[SimSwap]](https://github.com/neuralchen/SimSwap);
+
+[[ASMA-GAN]](https://github.com/neuralchen/ASMAGAN);
+
+[[SNGAN-Projection-pytorch]](https://github.com/neuralchen/SNGAN_Projection)
+
+[[Pretrained_VGG19]](https://github.com/neuralchen/Pretrained_VGG19).
+
+
+
 # Acknowledgements
 
 <!--ts-->
