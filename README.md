@@ -43,7 +43,7 @@ python setup.py develop
 ```
 - The pytorch and cuda versions above are most recommanded. They may vary.
 - Using insightface with different versions is not recommanded. Please use this specific version.
-- These settings are tested valid on both Windows and Ununtu.
+- These settings are tested valid on both Windows and Ubuntu.
 ### Pretrained model
 - We use the face detection and alignment methods from **[insightface](https://github.com/deepinsight/insightface)** for image preprocessing. Please download the relative files and unzip them to **./insightface_func/models** from [this link](https://onedrive.live.com/?authkey=%21ADJ0aAOSsc90neY&cid=4A83B6B633B029CC&id=4A83B6B633B029CC%215837&parId=4A83B6B633B029CC%215834&action=locate).
 - Download [GFPGANCleanv1-NoCE-C2.pth](https://github.com/TencentARC/GFPGAN/releases/download/v0.2.0/GFPGANCleanv1-NoCE-C2.pth) from GFPGAN offical repo. Place "GFPGANCleanv1-NoCE-C2.pth" in **./experiments/pretrained_models**.
