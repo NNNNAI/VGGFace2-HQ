@@ -1,5 +1,7 @@
 # VGGFace2-HQ
 
+Related paper: [TPAMI](https://github.com/neuralchen/SimSwapPlus)
+
 ## The first open source high resolution dataset for face swapping!!!
 
 A high resolution version of [VGGFace2](https://github.com/ox-vgg/vgg_face2) for academic face editing purpose.This project uses [GFPGAN](https://github.com/TencentARC/GFPGAN) for image restoration and [insightface](https://github.com/deepinsight/insightface) for data preprocessing (crop and align).
