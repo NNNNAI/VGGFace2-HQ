@@ -62,6 +62,27 @@ python scripts/crop_align_vggface2_FFHQalign.py --input_dir $DATAPATH$/VGGface2/
 python scripts/inference_gfpgan_forvggface2.py --input_path $ALIGN_OUTDIR$  --batchSize 8 --save_dir $HQ_OUTDIR$
 ```
 
+## Citation
+
+If you find our work useful in your research, please consider citing:
+
+```
+@Article{simswapplusplus,
+author = {Xuanhong Chen and
+Bingbing Ni and
+Yutian Liu and
+Naiyuan Liu and
+Zhilin Zeng and
+Hang Wang},
+title = {SimSwap++: Towards Faster and High-Quality Identity Swapping},
+journal = {{IEEE} Trans. Pattern Anal. Mach. Intell.},
+volume = {46},
+number = {1},
+pages = {576--592},
+year = {2024}
+}
+```
+
 ## Related Projects
 
 ***Please visit our popular face swapping project***
