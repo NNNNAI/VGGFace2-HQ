@@ -68,18 +68,18 @@ If you find our work useful in your research, please consider citing:
 
 ```
 @Article{simswapplusplus,
-author = {Xuanhong Chen and
-Bingbing Ni and
-Yutian Liu and
-Naiyuan Liu and
-Zhilin Zeng and
-Hang Wang},
-title = {SimSwap++: Towards Faster and High-Quality Identity Swapping},
-journal = {{IEEE} Trans. Pattern Anal. Mach. Intell.},
-volume = {46},
-number = {1},
-pages = {576--592},
-year = {2024}
+    author = {Xuanhong Chen and
+    Bingbing Ni and
+    Yutian Liu and
+    Naiyuan Liu and
+    Zhilin Zeng and
+    Hang Wang},
+    title = {SimSwap++: Towards Faster and High-Quality Identity Swapping},
+    journal = {{IEEE} Trans. Pattern Anal. Mach. Intell.},
+    volume = {46},
+    number = {1},
+    pages = {576--592},
+    year = {2024}
 }
 ```
 
